@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'netanelgilad:excel',
+  name: 'clearview:excel',
   summary: 'Parse excel worksheets for your meteor app.',
-  version: '0.2.6',
+  version: '0.0.1',
   git: 'https://github.com/netanelgilad/meteor-excel'
 });
 
@@ -23,6 +23,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('netanelgilad:excel');
+  api.use('clearview:excel');
   api.addFiles('excel-tests.js');
 });
