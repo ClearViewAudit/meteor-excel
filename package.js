@@ -6,8 +6,8 @@ Package.describe({
 });
 
 Npm.depends({
-  'xlsx' : '0.8.0',
-  'xlsjs' : '0.7.5'
+  'xlsx' : '0.9.3',
+  'xlsjs' : '0.7.6'
 });
 
 Package.onUse(function(api) {
